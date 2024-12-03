@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Main 
+{
+    public static void main(String[] args) 
+    {
+     
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the firstname:");
+        String x = sc.nextLine();
+        System.out.println("Enter the Lastname:");
+        String y = sc.nextLine();
+        String s1= x.concat(y);
+        System.out.println("Enter the number:");
+        int n= sc.nextInt();
+        
+       for(int i=1; i<=n; i++)
+       {
+           System.out.println(s1);
+       }
+   }
+}

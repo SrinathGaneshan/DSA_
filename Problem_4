@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Main 
+{
+    public static void main(String[] args) 
+    {
+        Scanner sc=new Scanner(System.in);
+        
+        System.out.println("enter the size");
+        int sze=sc.nextInt();
+        
+       switch(sze)
+       {
+        case 29:
+               System.out.println("small");
+               break;
+        case 38:
+               System.out.println("Large");
+               break; 
+        case 42:
+               System.out.println("xlarge");
+               break;
+        case 30:
+               System.out.println("Medium");
+               break;       
+        default:
+               System.out.println("invlaid");
+               break;
+        }
+    }   
+}
